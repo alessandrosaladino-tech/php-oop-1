@@ -3,12 +3,12 @@
 class movie
 {
 public $title;
-public $year;
 public $language;
+public $year;
 public $genres = [];
 
 
-function __construct($_title, $_language, $_year, $_genres)
+function __construct($_title, $_year, $_language, $_genres)
 {
     $this->title = $_title;
     $this->language = $_language;

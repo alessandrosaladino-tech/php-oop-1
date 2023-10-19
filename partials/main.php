@@ -12,7 +12,7 @@
                     <div class="card-body">
                         <h2>Titolo <?= $movie->title ?></h2>
                         <p>Anno di uscita: <?= $movie->year ?></p>
-                        <p>Lingua <?= $movie->language ?></p>
+                        <p>Lingua: <?= $movie->language ?></p>
                         <div>
                             <span>Genere:</span>
                             <ul>
