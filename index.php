@@ -24,4 +24,5 @@ organizzando il layout dividendo la struttura ed i contenuti in file e parziali 
 <?php
 require "./partials/head.php";
 require "./partials/main.php";
+require "./partials/footer.php"
 ?>

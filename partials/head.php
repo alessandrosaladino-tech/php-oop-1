@@ -13,5 +13,18 @@ include "./db.php"
 </head>
 <body>
     
-</body>
 
+<header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">OOP Movies</a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarID">
+                    <div class="navbar-nav ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link " aria-current="page" href="#">About US</a>
+                        <a class="nav-link " aria-current="page" href="#">Contacts</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+</header>
