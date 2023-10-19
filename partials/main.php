@@ -1,11 +1,13 @@
 <main>
 
+<h1 class="text-center mb-5 mt-5">OOP MOVIES</h1>
+
     <div class="container">
 
         <?php foreach ($movies as $movie) : ?>
             <div class="col">
 
-                <div class="card">
+                <div class="card mb-3 mt-3">
 
                     <div class="card-body">
                         <h2>Titolo <?= $movie->title ?></h2>
